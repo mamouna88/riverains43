@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Veuillez vous inscrire</h1>
+
+    {{ form_start(contactForm) }}
+    {{ form_widget(contactForm) }}
+    <input type="submit" value="Envoyer" class="btn btn-primary">
+    {{ form_end(contactForm) }}
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
