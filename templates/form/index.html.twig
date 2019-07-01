@@ -4,7 +4,9 @@
 
 
 {% block body %}
+    <a href="{{ path('connect') }}"><button type="submit" class="btn btn-primary mb-2">Connexion</button></a>
     <h1>S'inscrire</h1>
+
     {{ form_start(createForm)}}
     {{ form_widget(createForm)}}
     {{ form_end(createForm)}}

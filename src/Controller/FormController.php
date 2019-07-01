@@ -6,12 +6,14 @@ use App\Entity\Adherent;
 use App\Form\AdherentType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
+
 use Symfony\Component\Routing\Annotation\Route;
 
 class FormController extends AbstractController
 {
     /**
-     * @Route("/form", name="form")
+     * @Route("/register", name="register")
+
      */
     public function index()
     {
