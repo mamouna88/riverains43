@@ -1,9 +1,19 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}{% endblock %}
 
-{% block body %}
+{% block body %}<body>
+<input type="checkbox">
 
+<ul>
+    <li><a href="">Accueil</a></li>
+    <li><a href="{{ path ('about') }}">Qui sommes nous ?</a></li>
+    <li><a href="{{ path ('project') }}">Projets</a></li>
+    <li><a href="{{ path ('pay') }}">Cotisations</a></li>
+    <li><a href="{{ path ('contact') }}">Contact</a></li>
+    <li><a href="{{ path ('connect') }}">Se connecter</a></li>
 
-
+</ul>
+    </body></div>
+    </body>
 {% endblock %}
